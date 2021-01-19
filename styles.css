@@ -27,6 +27,12 @@ img{
 .red{
     color:crimson;
 }
+.green-bg{
+    background-color: mediumseagreen;
+}
+.red-bg{
+    background-color: crimson;
+}
 #content{
     max-width: 700px;
     margin: auto;
@@ -55,4 +61,15 @@ a {
 }
 .space20px{
     padding-left: 20px ;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.box{
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
 }
